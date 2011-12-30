@@ -2,7 +2,7 @@
 -- additional options, see
 -- http://www.haskell.org/cabal/release/cabal-latest/doc/users-guide/authors.html#pkg-descr.
 -- The name of the package.
-Name:                tagsoup-parsec-alt
+Name:                parsec-tagsoup
 
 -- The package version. See the Haskell package versioning policy
 -- (http://www.haskell.org/haskellwiki/Package_versioning_policy) for
@@ -10,10 +10,10 @@ Name:                tagsoup-parsec-alt
 Version:             0.1
 
 -- A short (one-line) description of the package.
-Synopsis:            Tokenizes Tag, so [ Tag ] can be used as parser input. Provides basic combinators, the approach of which is different from @tagsoup-parsec@
+Synopsis:            Parsec parsers for Tagsoup tag streams
 
 -- A longer description of the package.
--- Description:         
+Description:         This package provides a Tag token parser, as well as Tag specific parsing combinators.   
 
 -- The license under which the package is released.
 License:             PublicDomain
@@ -28,7 +28,7 @@ Maintainer:          pepeiborra@gmail.com
 -- A copyright notice.
 -- Copyright:           
 
-Category:            Text
+Category:            XML
 
 Build-type:          Simple
 
